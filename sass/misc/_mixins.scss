@@ -1,0 +1,14 @@
+@mixin fondo($color){
+  @if map-has-key($estilos, $color){
+    background-color: map-get($estilos, $color);
+  } 
+}
+
+@mixin container($ancho, $alto, $color,$font_f) {
+    width: $ancho;
+    height: $alto;
+    background-color: $color;
+    font-family: $font_f;
+    text-align: center;
+    margin: 5px;
+  } 

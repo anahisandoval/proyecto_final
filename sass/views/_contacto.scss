@@ -1,0 +1,50 @@
+.uno{
+  @include fondo(color1);
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.dos{
+  @include fondo(color2);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.tres{
+  @include fondo(color3);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.cuatro{
+  @include fondo(color4);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+ 
+}
+
+.btn {
+    width: 100px;
+    text-align: center;
+    padding: 5px 0;
+    margin: 2px auto;
+    border-radius: 2px;
+    color: #FFFFFF;
+  }
+  
+  .btn-dark {
+    @extend .btn;
+    background-color: #0573d3;
+  }
+  .btn-secondary {
+    @extend .btn;
+    background-color: #f05b17;
+  }
+  .btn-cancel {
+    @extend .btn;
+    background-color: #f33639;
+  }

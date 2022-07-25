@@ -1,0 +1,64 @@
+/*colores*/
+/*Fuentes*/
+.uno {
+  background-color: #077c7e;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.dos {
+  background-color: #0c6e80;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.tres {
+  background-color: #069297;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.cuatro {
+  background-color: #65c946;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.btn, .btn-dark, .btn-secondary, .btn-cancel {
+  width: 100px;
+  text-align: center;
+  padding: 5px 0;
+  margin: 2px auto;
+  border-radius: 2px;
+  color: #FFFFFF;
+}
+
+.btn-dark {
+  background-color: #0573d3;
+}
+
+.btn-secondary {
+  background-color: #f05b17;
+}
+
+.btn-cancel {
+  background-color: #f33639;
+}
+
+.box_nav {
+  width: 100%;
+  height: 100%;
+  background-color: #025153;
+  font-family: "San-serif", "Arial", "Time New Roman";
+  text-align: center;
+  margin: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */
