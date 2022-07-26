@@ -60,12 +60,8 @@ footer{
     font-style: normal;
     background-color: black ;
 }
-#redes:hover{
-    border-radius: 80%;
-    animation-name: heartBeat;
-    animation-duration:2s;
-    background: #0c6e80;
-}
+
+
 
 @media screen and (min-width: 551px) and (max-width: 1200px) {
    

@@ -58,6 +58,35 @@
   margin: 5px;
 }
 
+.redes:hover, .mail:hover, .whatsapp:hover, .instagram:hover, .youtube:hover, .facebook:hover {
+  border-radius: 80%;
+  -webkit-animation-name: pulse;
+          animation-name: pulse;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.mail:hover {
+  background: #ff9900;
+}
+
+.whatsapp:hover {
+  background: #2d572c;
+}
+
+.instagram:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ad088a), color-stop(#f08ab9), color-stop(#f55e23), to(#f1dd21));
+  background: linear-gradient(to bottom, #ad088a, #f08ab9, #f55e23, #f1dd21);
+}
+
+.youtube:hover {
+  background: #c4302b;
+}
+
+.facebook:hover {
+  background: #3b5998;
+}
+
 h1 {
   text-align: center;
 }

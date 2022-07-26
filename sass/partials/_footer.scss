@@ -1,0 +1,25 @@
+.redes:hover{
+    border-radius:80%;
+    animation-name: pulse;
+    animation-duration:1s;
+}
+.mail:hover{
+    @extend .redes;
+    background: rgb(255, 153, 0);
+}
+.whatsapp:hover{
+    @extend .redes;
+    background: #2d572c;
+}
+.instagram:hover{
+    @extend .redes;
+    background:linear-gradient(to bottom,#ad088a,#f08ab9,#f55e23,#f1dd21);
+}
+.youtube:hover{
+    @extend .redes;
+    background: #c4302b;
+}
+.facebook:hover{
+    @extend .redes;
+    background: #3b5998;
+}
